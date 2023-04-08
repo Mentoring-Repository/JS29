@@ -1,0 +1,68 @@
+.add-car {
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100vh;
+}
+.add-car input {
+    margin:5px 0;
+    padding:5px 10px;
+    border-radius:3px;
+}
+.add-car button {
+    margin-top:5px;
+    padding:5px 10px;
+    background-color: rgb(146, 214, 146);
+    border-radius: 3px;
+    border:none;
+    color:#FFF;
+    font-weight: 700;
+    cursor: pointer;
+}
+body {
+    display:flex;
+}
+.car-container {
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:30px;
+    overflow: scroll;
+}
+.car-card {
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius:3px;
+    max-height: 600px;
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin:15px;
+    padding:10px
+}
+.delete-button,
+.edit-button {
+    color:#FFF;
+    font-weight: 700;
+    margin-top:10px;
+    border:none;
+    cursor: pointer;
+    padding:10px;
+    border-radius: 5px;
+}
+.delete-button {
+    background-color: rgb(253, 160, 160);
+}
+.edit-button {
+    background-color: rgb(153, 230, 153);
+}
+
+
+.car-card div {
+    margin:5px 0;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
