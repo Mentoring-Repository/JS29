@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Cars</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='style.css' rel='stylesheet' />
+    </head>
+
+    <body>
+        <div class='add-car'>
+            VIN: <input id='VIN' type='text' value='' placeholder='VIN...' />
+            Marca: <input id='marca' type='text' value='' placeholder='Marca...' />
+            Model: <input id='model' type='text' value='' placeholder='Model...' />
+            An fabricatie: <input id='anFabricatie' type='number' value='' placeholder='An fabricatie...' />
+            KM: <input id='km' type='number' value='' placeholder='KM...' />
+            Combustibil: <input id='combustibil' type='text' value='' placeholder='Combustibil...' />
+            Putere: <input id='putere' type='text' value='' placeholder='Putere...' />
+            Norma poluare: <input id='normaPoluare' type='text' value='' placeholder='Norma poluare...' />
+            Numar portiere: <input id='numarPortiere' type='number' value='' placeholder='Nr. portiere...' />
+            Culoare: <input id='culoare' type='text' value='' placeholder='Culoare...' />
+            Cutie de viteze: <input id='cutieViteze' type='text' value='' placeholder='Cutie de viteze...' />
+            <button id='createCar' onclick='createCar()'>Submit</button>
+        </div>
+        <div id='cars' class='car-container'>
+        </div>
+        <script src='script.js'></script>
+    </body>
+
+</html>
